@@ -1,0 +1,9 @@
+<!DOCTYPE HTML>
+<html>
+    List of Quizzes:
+        <br>
+        {% for qd in quiz_data %}
+                {{qd.id}})  <a href={{qd.id}}>{{qd.name}}</a> <br>
+        {% endfor %}
+        
+</html>
